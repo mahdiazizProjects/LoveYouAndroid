@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/arabic"
+        layout="@layout/checkbox_layout" />
+
+    <include
+        android:id="@+id/bnazin"
+        layout="@layout/checkbox_layout" />
+
+    <include
+        android:id="@+id/nastaligh"
+        layout="@layout/checkbox_layout" />
+
+    <include
+        android:id="@+id/yekan"
+        layout="@layout/checkbox_layout" />
+
+    <include
+        android:id="@+id/entezar1"
+        layout="@layout/checkbox_layout" />
+
+    <include
+        android:id="@+id/entezar2"
+        layout="@layout/checkbox_layout" />
+
+    <include
+        android:id="@+id/entezar3"
+        layout="@layout/checkbox_layout" />
+
+</LinearLayout>
